@@ -1,0 +1,42 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: apache-ignite-cache
+  security:
+    basic:
+      enabled: false
+  cache:
+    type: jcache
+
+
+logging:
+  level:
+    com.yk.cache: DEBUG
+
+
+
+#ignite:
+#  igniteInstanceName: testIgniteInstance
+#  communicationSpi:
+#    localPort: 47500
+#  discoverySpi:
+#
+#  dataStorageConfiguration:
+#    defaultDataRegionConfiguration:
+#      initialSize: 10485760 #10MB
+#    dataRegionConfigurations:
+#      - name: my-dataregion
+#        initialSize: 104857600 #100MB
+#  cacheConfiguration:
+#    - name: accounts
+#      queryEntities:
+#        - tableName: ACCOUNTS
+#          keyFieldName: ID
+#          keyType: java.lang.Long
+#          valueType: java.lang.Object
+#          fields:
+#            ID: java.lang.Long
+#            amount: java.lang.Double
+#            updateDate: java.util.Date
+#    - name: my-cache2
