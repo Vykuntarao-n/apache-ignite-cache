@@ -1,4 +1,4 @@
-# POC Spring Boot Apache Ignite application
+# POC - Spring Boot Apache Ignite application
 
 # How to build and run
 
