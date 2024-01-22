@@ -4,7 +4,7 @@
 
 To compile just do `mvn clean install`.
 
-Application can be started by running the ApacheIgniteCacheApplication Spring Boot app or by executing the command below from the terminal.
+Application can be started by running the ApacheIgniteCacheApplication Spring Boot app or by executing the below command from the terminal.
 ```
 java -jar target/apache-ignite-cache-1.0.0-SNAPSHOT.jar
 ```
