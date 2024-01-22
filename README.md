@@ -3,7 +3,8 @@
 # How to build and run
 
 To compile just do `mvn clean install`.
-To run a three node cluster execute the following:
+
+Application can be started by running the ApacheIgniteCacheApplication Spring Boot app or by executing the command below from the terminal.
 ```
 java -jar target/apache-ignite-cache-1.0.0-SNAPSHOT.jar
 ```
